@@ -1,0 +1,108 @@
+CharacteristicName,Parameter_type,Derived
+Count,Biological,Field
+Escherichia coli,Biological,Lab
+Total Coliform,Biological,Lab
+Enterococcus,Biological,Lab
+"Chlorophyll a, corrected for pheophytin",Biological,Lab
+HF183 DNA marker,Biological,Lab
+Fecal Coliform,Biological,Lab
+"Chlorophyll a, uncorrected for pheophytin",Biological,Lab
+BacR DNA marker,Biological,Lab
+DG3 DNA marker,Biological,Lab
+GFD DNA marker,Biological,Lab
+Chlorophyll a (probe relative fluorescence),Biological,Field
+Chlorophyll a,Biological,Lab
+Chlorophyll a (probe),Biological,Field
+Dissolved oxygen (DO),Chemical,Field
+pH,Chemical,Field
+Chloride,Chemical,Lab
+Selenium,Chemical,Lab
+Calcium,Chemical,Lab
+Magnesium,Chemical,Lab
+"Hardness, Ca, Mg",Chemical,Lab
+Organic carbon,Chemical,Lab
+Caffeine,Chemical,Lab
+"Alkalinity, total",Chemical,Lab
+"Carbonaceous biochemical oxygen demand, standard conditions",Chemical,Lab
+Sodium,Chemical,Lab
+Potassium,Chemical,Lab
+"Biochemical oxygen demand, standard conditions",Chemical,Lab
+Bromide,Chemical,Lab
+Bicarbonate,Chemical,Lab
+Oxidation reduction potential (ORP),Chemical,Lab
+Carbonate,Chemical,Lab
+Fluoride,Chemical,Lab
+Calcium carbonate,Chemical,Lab
+Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Chemical,Lab
+Sum of anions,Chemical,Lab
+Sum of cations,Chemical,Lab
+Chemical oxygen demand,Chemical,Lab
+Sulfate,Chemical,Lab
+Boron,Chemical,Lab
+Copper,Metals,Lab
+Zinc,Metals,Lab
+Arsenic,Metals,Lab
+Lead,Metals,Lab
+Silver,Metals,Lab
+Cadmium,Metals,Lab
+Iron,Metals,Lab
+Manganese,Metals,Lab
+Chromium,Metals,Lab
+Uranium-238,Metals,Lab
+Antimony,Metals,Lab
+Nickel,Metals,Lab
+Aluminum,Metals,Lab
+Thallium,Metals,Lab
+Barium,Metals,Lab
+Beryllium,Metals,Lab
+Mercury,Metals,Lab
+Molybdenum,Metals,Lab
+"Total Phosphorus, mixed forms",Nutrients,Lab
+"Nutrient-nitrogen***retired***use TOTAL NITROGEN, MIXED FORMS with speciation AS N",Nutrients,Lab
+"Total Nitrogen, mixed forms",Nutrients,Lab
+Nitrate + Nitrite,Nutrients,Lab
+Orthophosphate,Nutrients,Lab
+Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite,Nutrients,Lab
+Ammonia,Nutrients,Lab
+Phosphate-phosphorus,Nutrients,Lab
+Nutrient-nitrogen (retired),Nutrients,Lab
+Kjeldahl nitrogen,Nutrients,Lab
+Total Kjeldahl nitrogen (Organic N & NH3),Nutrients,Lab
+Ammonia-nitrogen,Nutrients,Lab
+Inorganic phosphorus,Nutrients,Lab
+Phosphorus,Nutrients,Lab
+Soluble Reactive Phosphorus (SRP),Nutrients,Lab
+Nitrate,Nutrients,Lab
+"Temperature, water",Physical,Field
+Specific conductance,Physical,Field
+Dissolved oxygen saturation,Physical,Field
+Apparent color,Physical,Field
+"Depth, Secchi disk depth",Physical,Field
+Flow,Physical,Field
+"Height, gage",Physical,Field
+Total dissolved solids,Chemical,Field
+"Temperature, air",Physical,Field
+Barometric pressure,Physical,Field
+Salinity,Chemical,Field
+Conductivity,Physical,Field
+"Depth, bottom",Physical,Field
+Water level reference point elevation,Physical,Field
+Weight,Physical,Field
+Precipitation during activity (choice list),Physical,Field
+Stream flow,Physical,Field
+Velocity - stream,Physical,Field
+Depth,Physical,Field
+Stream width measure,Physical,Field
+"Depth, Secchi disk depth (choice list)",Physical,Field
+Total suspended solids,Sediment,Lab
+Turbidity,Sediment,Field
+RBP Turbidity Code (choice list),Sediment,Field
+Total volatile solids,Sediment,Lab
+Particle size (size/range in result Particle Size Basis),Sediment,Lab
+Suspended Sediment Concentration (SSC),Sediment,Lab
+Volatile suspended solids,Sediment,Lab
+Silica,Chemical,Lab
+Nitrite,Nutrients,Lab
+Ferrous ion,Chemical,Lab
+Methane,Chemical,Lab
+Sulfide,Chemical,Lab
