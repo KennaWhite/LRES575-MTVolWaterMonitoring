@@ -37,6 +37,7 @@ project_dates <- project_dates %>%
     levels = project_order$ProjectID_Simple))
 
 ### Create the plot ----- y-labs have project name
+
 ggplot(project_dates,
        aes(x = ActivityStartDate, y = ProjectID_Simple)) +
   geom_point(color = "seagreen", size = 2, alpha = 1) +
@@ -53,15 +54,6 @@ ggplot(project_dates,
   theme(plot.title = element_text(hjust = 0.5))
 
 ggsave("my_plot.png", width = 11, height = 13, units = "in")
-
-###---------------------some potentially useful code from attempt #1 -----------
-#project_dates <- all_wqp_PhysChemData %>%
- #reframe(start_date = unique(ActivityStartDate))
-
-# project_dates<- merge(project_dates, ProjectNames)
-# project_dates<- project_dates[match(ProjectNames$ProjectName, project_dates$ProjectName),]
-# project_dates <- project_dates %>%
-#   mutate(ProjectID_Simple = factor(ProjectID_Simple, levels = ProjectID_Simple))
 
 -----------------------------------------------------------------------------------
 # Code to make the Gantt chart appear as bars not points #
