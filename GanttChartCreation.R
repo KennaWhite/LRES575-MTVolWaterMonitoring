@@ -6,7 +6,6 @@ library(dataRetrieval)
 library(dplyr)
 library(readr)
 library(purrr)
-library(lubridate)
 library(tidyverse)
 library(treemapify)
 
@@ -17,7 +16,7 @@ ProjectNames <- read.csv('ProjectNames.csv',
 all_wqp_PhysChemData <- read.csv('All_WQP_PhysChemData_Cleaned.csv',
                                       colClasses = c(ProjectID_Simple = "factor", ActivityStartDate ="date"))
 
-##### Create a gantt style chart with the groups in order by start date, with same groups next to each other
+##### Create a gantt style chart with the groups in order by start date, with similar groups positioned next to each other
 
 all_wqp_PhysChemData <- all_wqp_PhysChemData %>%
   mutate(ActivityStartDate = as.Date(ActivityStartDate))
