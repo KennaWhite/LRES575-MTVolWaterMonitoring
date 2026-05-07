@@ -1,0 +1,160 @@
+ProjectID_Simple,Parameter_type,Goal_baseline,Goal_trend,Goal_source,Goal_effective,Goal_education,OrganizationName,ProjectName,ganttOrder,ProjectNameShort,dataCount,dataRange_yrs,median_analytes_per_year,median_sites_per_year,median_sampling_days_year,median_months_per_year
+UG-GRTF,Nutrients,0,1,0,1,0,Gallatin River Task Force,Upper Gallatin Gallatin River Task Force Volunteer Monitoring*,19,Gallatin TF VM,231,4,3,16,2,1
+UG-GRTF,Biological,0,1,0,1,0,Gallatin River Task Force,Upper Gallatin Gallatin River Task Force Volunteer Monitoring*,19,Gallatin TF VM,27,3,1,11.5,6,1.5
+UG-GRTF,Physical,0,1,0,0,0,Gallatin River Task Force,Upper Gallatin Gallatin River Task Force Volunteer Monitoring*,19,Gallatin TF VM,27,3,1,11.5,6,1.5
+UG-GRTF,Chemical,0,0,1,0,0,Gallatin River Task Force,Upper Gallatin Gallatin River Task Force Volunteer Monitoring*,19,Gallatin TF VM,95,2,2.5,18.5,2.5,1
+UG-GRTF,Sediment,0,1,0,1,0,Gallatin River Task Force,Upper Gallatin Gallatin River Task Force Volunteer Monitoring*,19,Gallatin TF VM,23,1,1,21,3,1
+ADOPTALAKE,Physical,1,0,0,0,1,Clearwater Resource Council,Adopt-A-Lake Volunteer Monitoring Program,4,Clearwater Lakes,2549,12,2,14.5,57,6
+ADOPTALAKE,Nutrients,1,0,0,0,1,Clearwater Resource Council,Adopt-A-Lake Volunteer Monitoring Program,4,Clearwater Lakes,392,1,4,24,20,6
+ADOPTALAKE,Biological,1,0,0,0,1,Clearwater Resource Council,Adopt-A-Lake Volunteer Monitoring Program,4,Clearwater Lakes,164,1,2,18,5,4
+BHRA-BIGHORN,Physical,1,1,1,0,0,Big Horn River Alliance,Big Horn River Alliance Water Quality Sampling,29,Big Horn River,440,4,2,8,8,4
+BHRA-BIGHORN,Chemical,1,1,1,0,0,Big Horn River Alliance,Big Horn River Alliance Water Quality Sampling,29,Big Horn River,429,4,2,9,11,4
+BHRA-BIGHORN,Nutrients,1,1,1,0,0,Big Horn River Alliance,Big Horn River Alliance Water Quality Sampling,29,Big Horn River,696,4,4,9,11,4
+BHRA-BIGHORN,Sediment,1,1,1,0,0,Big Horn River Alliance,Big Horn River Alliance Water Quality Sampling,29,Big Horn River,463,4,3,9,11,4
+BHRA-BIGHORN,Biological,1,1,1,0,0,Big Horn River Alliance,Big Horn River Alliance Water Quality Sampling,29,Big Horn River,183,4,1,8,8,4
+BHRF-WQ,Physical,1,0,0,0,0,Big Hole River Foundation,Big Hole River Water Quality,30,Big Hole RF,1215,5,3,10,16,6
+BHRF-WQ,Chemical,1,0,0,0,0,Big Hole River Foundation,Big Hole River Water Quality,30,Big Hole RF,1078,5,3,10,16,7
+BHRF-WQ,Sediment,1,0,0,0,0,Big Hole River Foundation,Big Hole River Water Quality,30,Big Hole RF,902,5,2,10,16,7
+BHRF-WQ,Nutrients,1,0,0,0,0,Big Hole River Foundation,Big Hole River Water Quality,30,Big Hole RF,1680,5,3,10,16,7
+BHWC-ELKMM,Physical,1,0,1,0,0,Big Hole Watershed Committee,Elkhorn Mine & Mill Restoration Project: Water Quality Monitoring,32,Big Hole WC Elkhorn,285,2,3.5,21.5,2.5,2.5
+BHWC-ELKMM,Chemical,1,0,1,0,0,Big Hole Watershed Committee,Elkhorn Mine & Mill Restoration Project: Water Quality Monitoring,32,Big Hole WC Elkhorn,452,2,5,22,3.5,3
+BHWC-ELKMM,Metals,1,0,1,0,0,Big Hole Watershed Committee,Elkhorn Mine & Mill Restoration Project: Water Quality Monitoring,32,Big Hole WC Elkhorn,600,2,6,21.5,3,2.5
+BIGHOLE-ALGAE,Biological,1,0,0,0,0,Big Hole River Foundation & Big Hole Watershed Committee,Big Hole River Algae Bloom,31,Big Hole RF&WC Algae,176,1,2,3,1,1
+BIGHOLE-ALGAE,Physical,1,0,0,0,0,Big Hole River Foundation & Big Hole Watershed Committee,Big Hole River Algae Bloom,31,Big Hole RF&WC Algae,21,1,6,4,1,1
+BIGHOLE-ALGAE,Chemical,1,0,0,0,0,Big Hole River Foundation & Big Hole Watershed Committee,Big Hole River Algae Bloom,31,Big Hole RF&WC Algae,6,1,2,3,1,1
+BIGHOLE-ALGAE,Sediment,0,0,0,0,0,Big Hole River Foundation & Big Hole Watershed Committee,Big Hole River Algae Bloom,31,Big Hole RF&WC Algae,16,1,2,14,3,2
+BIGHOLE-ALGAE,Nutrients,1,0,0,0,0,Big Hole River Foundation & Big Hole Watershed Committee,Big Hole River Algae Bloom,31,Big Hole RF&WC Algae,48,1,4,10,2,1
+BITR-BRPA,Sediment,0,1,1,0,0,Bitterroot River Protection Association,Bitterroot River Mainstem Monitoring by Bitterroot River Protection Association,21,Bitterroot Main,20,1,1,4,5,3
+BITR-BRPA,Physical,0,1,1,0,0,Bitterroot River Protection Association,Bitterroot River Mainstem Monitoring by Bitterroot River Protection Association,21,Bitterroot Main,111,1,6,4,5,3
+BITR-BRPA,Chemical,0,1,1,0,0,Bitterroot River Protection Association,Bitterroot River Mainstem Monitoring by Bitterroot River Protection Association,21,Bitterroot Main,49,1,4,4,5,3
+BITR-BRPA,Nutrients,0,1,1,0,0,Bitterroot River Protection Association,Bitterroot River Mainstem Monitoring by Bitterroot River Protection Association,21,Bitterroot Main,150,1,5,4,5,3
+BVHD-INSECT,Biological,1,0,1,0,0,Beaverhead Watershed Committee,Beaverhead River Macroinvertebrate Monitoring,34,Breaverhead,350,1,1,4,1,1
+CARBON-CD,Nutrients,0,0,1,0,0,Carbon Conservation District & Clarks Fork Yellowstone Partnership,Carbon Conservation District Monitoring,23,Carbon CD,1266,6,3,8,7.5,7
+CARBON-CD,Sediment,0,0,1,0,0,Carbon Conservation District & Clarks Fork Yellowstone Partnership,Carbon Conservation District Monitoring,23,Carbon CD,627,6,1.5,9,7.5,7
+CARBON-CD,Physical,0,0,1,0,0,Carbon Conservation District & Clarks Fork Yellowstone Partnership,Carbon Conservation District Monitoring,23,Carbon CD,445,3,2,9,8,8
+CARBON-CD,Chemical,0,0,1,0,0,Carbon Conservation District & Clarks Fork Yellowstone Partnership,Carbon Conservation District Monitoring,23,Carbon CD,395,3,2,9,8,8
+CLEARWATER-BASIN,Nutrients,1,0,0,0,0,Clearwater Resource Council,Clearwater Resource Council Water Quality Testing Program,15,Clearwater Basin,878,4,4,14,10.5,3.5
+CLEARWATER-BASIN,Biological,1,0,0,0,0,Clearwater Resource Council,Clearwater Resource Council Water Quality Testing Program,15,Clearwater Basin,267,4,2,8.5,5.5,3
+CLEARWATER-BASIN,Chemical,1,0,0,0,0,Clearwater Resource Council,Clearwater Resource Council Water Quality Testing Program,15,Clearwater Basin,266,2,2,15.5,9.5,3.5
+FRA-WQ,Chemical,1,0,0,0,1,Flathead Rivers Alliance,Flathead Wild & Scenic River Baseline Data,39,Flathead Rivers,173,2,3,11.5,11,5
+FRA-WQ,Physical,1,0,0,0,1,Flathead Rivers Alliance,Flathead Wild & Scenic River Baseline Data,39,Flathead Rivers,231,2,4,11.5,11,5
+FRA-WQ,Nutrients,1,0,0,0,1,Flathead Rivers Alliance,Flathead Wild & Scenic River Baseline Data,39,Flathead Rivers,128,2,2,11,9.5,4.5
+JCP,Sediment,0,0,1,0,1,The Jack Creek Project,Jack Creek Volunteer Water Quality Monitoring,11,Madison Jack Crk,149,2,3,7,8,5.5
+JCP,Physical,0,0,1,0,1,The Jack Creek Project,Jack Creek Volunteer Water Quality Monitoring,11,Madison Jack Crk,349,2,6,7,7,6
+JCP,Chemical,0,0,1,0,1,The Jack Creek Project,Jack Creek Volunteer Water Quality Monitoring,11,Madison Jack Crk,135,2,2,6.5,6,5.5
+JCP,Nutrients,0,0,1,0,1,The Jack Creek Project,Jack Creek Volunteer Water Quality Monitoring,11,Madison Jack Crk,168,2,3,6,4,3
+JCP,Biological,0,0,1,0,1,The Jack Creek Project,Jack Creek Volunteer Water Quality Monitoring,11,Madison Jack Crk,24,2,1,6,2,2
+KWAWQ,Nutrients,1,0,1,0,0,Kootenai Watershed Allies,"Selenium, Nutrient & Water Quality Monitoring on tributaries of the Kootenai River and Koocanusa",38,Kootenai,390,3,2,29,5,2
+KWAWQ,Chemical,1,0,1,0,0,Kootenai Watershed Allies,"Selenium, Nutrient & Water Quality Monitoring on tributaries of the Kootenai River and Koocanusa",38,Kootenai,195,3,1,29,5,2
+LAKEMARYRONAN,Sediment,1,0,1,0,0,Friends of Lake Mary Ronan,"Lake Mary Ronan, Donaldson Creek, Freeland Creek and Ronan Creek Water Monitoring Study",25,Lake Mary Ronan,96,2,1,5.5,8,6.5
+LAKEMARYRONAN,Nutrients,1,0,1,0,0,Friends of Lake Mary Ronan,"Lake Mary Ronan, Donaldson Creek, Freeland Creek and Ronan Creek Water Monitoring Study",25,Lake Mary Ronan,384,2,4,5.5,8,6.5
+LAKEMARYRONAN,Physical,1,0,1,0,0,Friends of Lake Mary Ronan,"Lake Mary Ronan, Donaldson Creek, Freeland Creek and Ronan Creek Water Monitoring Study",25,Lake Mary Ronan,147,2,4,5.5,8.5,6.5
+LAKEMARYRONAN,Biological,1,0,1,0,0,Friends of Lake Mary Ronan,"Lake Mary Ronan, Donaldson Creek, Freeland Creek and Ronan Creek Water Monitoring Study",25,Lake Mary Ronan,12,2,1,2,3,3
+LB-LAKE,Nutrients,1,1,1,0,0,Little Bitteroot Lake Association,Little Bitteroot Lake Eutrophication Study,27,Little Bitteroot Lake,283,6,2,15,2,1
+LB-LAKE,Chemical,1,0,0,0,0,Little Bitteroot Lake Association,Little Bitteroot Lake Eutrophication Study,27,Little Bitteroot Lake,91,6,3,3,1,1
+LB-LAKE,Sediment,1,0,0,0,0,Little Bitteroot Lake Association,Little Bitteroot Lake Eutrophication Study,27,Little Bitteroot Lake,22,5,1,3,1,1
+LB-LAKE,Biological,1,1,1,0,0,Little Bitteroot Lake Association,Little Bitteroot Lake Eutrophication Study,27,Little Bitteroot Lake,79,6,2,11,2,1
+LB-LAKE,Physical,1,1,1,0,0,Little Bitteroot Lake Association,Little Bitteroot Lake Eutrophication Study,27,Little Bitteroot Lake,1,1,1,1,1,1
+LHVWM,Physical,1,0,0,0,0,Lake Helena Watershed Group,Lake Helena Watershed Volunteer Water Monitoring,9,Lake Helena,318,7,4,9,7,3
+LHVWM,Metals,1,0,0,0,0,Lake Helena Watershed Group,Lake Helena Watershed Volunteer Water Monitoring,9,Lake Helena,740,7,9,9,7,3
+LHVWM,Nutrients,1,0,0,0,0,Lake Helena Watershed Group,Lake Helena Watershed Volunteer Water Monitoring,9,Lake Helena,295,7,3,9,7,3
+LHVWM,Chemical,1,0,0,0,0,Lake Helena Watershed Group,Lake Helena Watershed Volunteer Water Monitoring,9,Lake Helena,751,7,9,9,7,3
+LHVWM,Sediment,1,0,0,0,0,Lake Helena Watershed Group,Lake Helena Watershed Volunteer Water Monitoring,9,Lake Helena,31,2,1,8,8,4
+MBPHOA_POND,Chemical,1,0,0,0,0,Mission Bay Preserve HOA,Mission Bay Preserve HOA Casting Pond,43,Misson Bay HOA,6,1,1,3,3,3
+MBPHOA_POND,Physical,1,0,0,0,0,Mission Bay Preserve HOA,Mission Bay Preserve HOA Casting Pond,43,Misson Bay HOA,12,1,2,3,3,3
+MBPHOA_POND,Nutrients,1,0,0,0,0,Mission Bay Preserve HOA,Mission Bay Preserve HOA Casting Pond,43,Misson Bay HOA,60,1,5,3,3,3
+MORRELL,Sediment,0,0,0,0,1,Seeley-Swan High School,Morrell Creek 2012-2013 Nutrient Sampling,12,Seeley Morrell,27,2,1,2.5,8,4
+MORRELL,Nutrients,0,0,0,0,1,Seeley-Swan High School,Morrell Creek 2012-2013 Nutrient Sampling,12,Seeley Morrell,99,2,4,2.5,8.5,4.5
+MST,Chemical,1,0,0,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,2480,22,2,19.5,14.5,5
+MST,Biological,1,0,0,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,2559,21,3,16,7.5,4
+MST,Sediment,1,1,0,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,1105,22,2,19,16,5
+MST,Physical,1,1,0,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,3924,22,6,19.5,14.5,5
+MST,Metals,0,0,0,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,977,8,3.5,7.5,6,2.5
+MST,Nutrients,0,1,1,0,0,Madison Stream Team,Madison Stream Team Volunteer Water Quality Monitoring Program,2,Madison,1834,14,4,17,7.5,3
+MVWQD,Nutrients,1,0,1,0,0,Missoula Valley Water Quality District,Missoula Valley Water Quality District Volunteer Monitoring,24,Missoula LWQD,1492,6,3,27.5,9.5,3.5
+MVWQD,Chemical,1,0,1,0,0,Missoula Valley Water Quality District,Missoula Valley Water Quality District Volunteer Monitoring,24,Missoula LWQD,481,6,1,27.5,9.5,3.5
+MVWQD,Sediment,1,0,1,0,0,Missoula Valley Water Quality District,Missoula Valley Water Quality District Volunteer Monitoring,24,Missoula LWQD,480,6,1,27.5,9.5,3.5
+MVWQD,Physical,1,0,1,0,0,Missoula Valley Water Quality District,Missoula Valley Water Quality District Volunteer Monitoring,24,Missoula LWQD,7,2,1,3,1,1
+RFC-WQ,Physical,1,0,0,0,0,Central Montana Resource Council,Central Montana Resource Council Ross Fork Creek Monitoring,42,Ross Fork CMRC,11,1,1,4,3,3
+RFC-WQ,Nutrients,1,0,0,0,0,Central Montana Resource Council,Central Montana Resource Council Ross Fork Creek Monitoring,42,Ross Fork CMRC,68,2,4,3.5,2.5,2
+ROCK-CREEK,Sediment,0,0,1,0,0,Rock Creek Watershed Group & Carbon County Resource Council,Rock Creek Water Quality Monitoring,37,Rock CCRC,402,3,2,11,7,7
+ROCK-CREEK,Nutrients,0,0,1,0,0,Rock Creek Watershed Group & Carbon County Resource Council,Rock Creek Water Quality Monitoring,37,Rock CCRC,964,3,4,11,7,7
+ROCK-CREEK,Physical,1,0,0,0,0,Rock Creek Watershed Group & Carbon County Resource Council,Rock Creek Water Quality Monitoring,37,Rock CCRC,594,2,4,11,7,7
+ROCK-CREEK,Chemical,0,0,0,0,0,Rock Creek Watershed Group & Carbon County Resource Council,Rock Creek Water Quality Monitoring,37,Rock CCRC,286,2,2,11,6.5,6.5
+SFWQ,Sediment,1,0,0,0,0,Bitterroot River Protection Association,Sapphire Front Project,22,Bitterroot Sapphire,360,7,1,11,25,6
+SFWQ,Physical,1,0,0,0,0,Bitterroot River Protection Association,Sapphire Front Project,22,Bitterroot Sapphire,1334,7,4,11,25,6
+SFWQ,Chemical,1,0,0,0,0,Bitterroot River Protection Association,Sapphire Front Project,22,Bitterroot Sapphire,1132,7,3,11,25,6
+SFWQ,Nutrients,1,0,1,0,0,Bitterroot River Protection Association,Sapphire Front Project,22,Bitterroot Sapphire,2184,7,5,11,25,6
+SRHP,Chemical,1,0,0,0,0,Smith River Habitat Project,Smith River Habitat Project Volunteer Water Monitoring,20,Smith River,150,3,5,7,6,2
+SRHP,Metals,1,0,0,0,0,Smith River Habitat Project,Smith River Habitat Project Volunteer Water Monitoring,20,Smith River,240,3,8,7,6,2
+SRHP,Nutrients,1,0,0,0,0,Smith River Habitat Project,Smith River Habitat Project Volunteer Water Monitoring,20,Smith River,90,3,3,7,6,2
+SRHP,Sediment,1,0,0,0,0,Smith River Habitat Project,Smith River Habitat Project Volunteer Water Monitoring,20,Smith River,30,3,1,7,6,2
+SRWQI,Nutrients,1,0,0,0,1,Stillwater Valley Watershed Council,Stillwater Rosebud Water Quality Initiative,33,Stillwater Rosebud,1570,5,3,9,12,11
+SRWQI,Sediment,1,0,0,0,1,Stillwater Valley Watershed Council,Stillwater Rosebud Water Quality Initiative,33,Stillwater Rosebud,974,5,2,9,12,11
+SRWQI,Chemical,1,0,0,0,1,Stillwater Valley Watershed Council,Stillwater Rosebud Water Quality Initiative,33,Stillwater Rosebud,976,5,2,9,12,11
+SRWQI,Physical,1,0,0,0,1,Stillwater Valley Watershed Council,Stillwater Rosebud Water Quality Initiative,33,Stillwater Rosebud,987,5,3,9,12,11
+SRWQI,Metals,0,0,0,0,0,Stillwater Valley Watershed Council,Stillwater Rosebud Water Quality Initiative,33,Stillwater Rosebud,60,1,5,4,2,2
+STUDENTS-IN-ACTION,Nutrients,1,0,1,0,1,Seeley-Swan High School & Clearwater Resource Council,Student Water Quality Testing Program,13,Seeley CRC,104,1,4,1,12,7
+STUDENTS-IN-ACTION,Sediment,1,0,0,0,1,Seeley-Swan High School & Clearwater Resource Council,Student Water Quality Testing Program,13,Seeley CRC,26,1,1,1,12,7
+SWIM-RWQ,Physical,1,0,0,0,0,Flathead Lakers,Swim Guide Recreational Water Quality Testing,36,Flathead Lakers,284,1,1,32,9,3
+SWIM-RWQ,Biological,1,0,0,0,0,Flathead Lakers,Swim Guide Recreational Water Quality Testing,36,Flathead Lakers,677,4,1,16,10,3
+TCLSC-CLH,Nutrients,1,0,0,0,0,Thompson Chain of Lakes Stewardship Coalition,"Thompson Chain of Lakes Stewardship Coalition Crystal, Lavon, and Horseshoe Lakes",41,Thompson Lakes,94,1,4,6,4,3
+TU-BF,Nutrients,0,1,0,0,0,Trout Unlimited,Lower North Burnt Fork Creek 2019 Monitoring,28,TU Burnt Crk,66,1,3,6,3,3
+TU-BF,Sediment,0,1,0,0,0,Trout Unlimited,Lower North Burnt Fork Creek 2019 Monitoring,28,TU Burnt Crk,22,1,1,6,3,3
+UMOWA,Biological,1,1,0,0,0,Upper Missouri Watershed Alliance,"Upper Missouri River Aquatic Macroinvertebrates, Aquatic Plants, and Water Chemistry Study",17,Missouri UMOWA,366,1,1,12,3,3
+UMOWA,Chemical,1,1,0,0,0,Upper Missouri Watershed Alliance,"Upper Missouri River Aquatic Macroinvertebrates, Aquatic Plants, and Water Chemistry Study",17,Missouri UMOWA,517,9,1,7,3,3
+UMOWA,Nutrients,1,1,0,0,0,Upper Missouri Watershed Alliance,"Upper Missouri River Aquatic Macroinvertebrates, Aquatic Plants, and Water Chemistry Study",17,Missouri UMOWA,669,9,3,7,3,3
+UMOWA,Metals,0,0,0,0,0,Upper Missouri Watershed Alliance,"Upper Missouri River Aquatic Macroinvertebrates, Aquatic Plants, and Water Chemistry Study",17,Missouri UMOWA,216,1,8,7,3,3
+UMOWA,Sediment,1,1,0,0,0,Upper Missouri Watershed Alliance,"Upper Missouri River Aquatic Macroinvertebrates, Aquatic Plants, and Water Chemistry Study",17,Missouri UMOWA,211,9,1,7,3,3
+WRH20QTEAM,Nutrients,1,1,0,0,0,Whitefish River Water Quality Monitoring Team,Whitefish River Water Quality Monitoring Project,40,Whitefish River,56,1,4,3,3,3
+WRH20QTEAM,Physical,1,1,0,0,0,Whitefish River Water Quality Monitoring Team,Whitefish River Water Quality Monitoring Project,40,Whitefish River,15,1,2,3,3,3
+WRH20QTEAM,Chemical,1,1,0,0,0,Whitefish River Water Quality Monitoring Team,Whitefish River Water Quality Monitoring Project,40,Whitefish River,6,1,1,3,2,2
+YERC-RIVERNET,Nutrients,1,0,0,0,1,Yellowstone Ecological Research Center,Yellowstone Ecological Research Center RiverNET Community Monitoring,26,Yellowstone YERC,401,2,4,15,3,3
+YERC-RIVERNET,Sediment,1,1,0,0,1,Yellowstone Ecological Research Center,Yellowstone Ecological Research Center RiverNET Community Monitoring,26,Yellowstone YERC,83,2,1,15,2.5,2.5
+YVFC,Nutrients,1,1,1,0,0,Yaak Valley Forest Council,Yaak Valley Forest Council Water Quality Monitoring Program,35,Yaak,422,4,3,15.5,5,2
+YVFC,Sediment,0,1,1,0,0,Yaak Valley Forest Council,Yaak Valley Forest Council Water Quality Monitoring Program,35,Yaak,260,4,2,15.5,5.5,2
+YVFC,Physical,1,1,0,0,0,Yaak Valley Forest Council,Yaak Valley Forest Council Water Quality Monitoring Program,35,Yaak,493,4,4,15.5,5,2
+YVFC,Chemical,0,1,1,0,0,Yaak Valley Forest Council,Yaak Valley Forest Council Water Quality Monitoring Program,35,Yaak,254,4,2.5,15.5,5,2
+M13SUNR,Sediment,0,1,0,0,1,Sun River Watershed Group,Sun River Watershed Monitoring Project,1,Sun,836,24,1,7,7,6
+M13SUNR,Nutrients,0,1,0,0,1,Sun River Watershed Group,Sun River Watershed Monitoring Project,1,Sun,2708,24,3,7,7,6
+M13SUNR,Chemical,0,1,0,0,1,Sun River Watershed Group,Sun River Watershed Monitoring Project,1,Sun,386,3,2,13,7,5
+M13SUNR,Physical,0,1,0,0,1,Sun River Watershed Group,Sun River Watershed Monitoring Project,1,Sun,166,1,3,13,12,6
+MWC-SAL,Physical,1,0,0,0,1,Musselshell Watershed Coalition,Musselshell Watershed Coalition Salinity,10,Musselshell,59,1,2,9,18,4
+DEEPCREEK,Sediment,0,0,0,1,1,Broadwater Conservation District,Deep Creek Temperature and Flow Monitoring,16,Broadwater Deep Crk,53,1,2,7,10,4
+DEEPCREEK,Physical,0,0,0,1,1,Broadwater Conservation District,Deep Creek Temperature and Flow Monitoring,16,Broadwater Deep Crk,147,5,2,10,7,3
+DEEPCREEK,Nutrients,0,0,0,0,0,Broadwater Conservation District,Deep Creek Temperature and Flow Monitoring,16,Broadwater Deep Crk,72,1,3,7,6,3
+DEEPCREEK,Chemical,0,0,0,1,1,Broadwater Conservation District,Deep Creek Temperature and Flow Monitoring,16,Broadwater Deep Crk,34,1,2,6,6,3
+DEEPCREEK,Biological,0,0,0,1,1,Broadwater Conservation District,Deep Creek Temperature and Flow Monitoring,16,Broadwater Deep Crk,435,1,2,7,6,2
+NMLN,Physical,0,0,0,0,1,Northwest Montana Lakes Network,Northwest Montana Lakes Network,6,NWM Lakes 2,36603,14,4,45.5,20.5,2.5
+NMLN,Chemical,0,1,0,0,0,Northwest Montana Lakes Network,Northwest Montana Lakes Network,6,NWM Lakes 2,11909,14,1,45.5,20.5,3
+NMLN,Nutrients,0,1,0,0,0,Northwest Montana Lakes Network,Northwest Montana Lakes Network,6,NWM Lakes 2,1174,13,2,45,20,2
+NMLN,Biological,0,1,0,0,1,Northwest Montana Lakes Network,Northwest Montana Lakes Network,6,NWM Lakes 2,489,12,1,45.5,20,2
+NWMTLVMN,Biological,1,1,0,0,0,Northwest Montana Lakes Volunteer Monitoring Network,Northwest Montana Lakes Volunteer Monitoring Network,5,NWM Lakes 1,56,1,1,53,23,2
+NWMTLVMN,Nutrients,1,1,0,0,0,Northwest Montana Lakes Volunteer Monitoring Network,Northwest Montana Lakes Volunteer Monitoring Network,5,NWM Lakes 1,100,1,2,47,21,2
+NWMTLVMN,Sediment,0,0,0,0,0,Northwest Montana Lakes Volunteer Monitoring Network,Northwest Montana Lakes Volunteer Monitoring Network,5,NWM Lakes 1,10,1,1,10,4,1
+NWMTLVMN,Chemical,1,1,0,0,0,Northwest Montana Lakes Volunteer Monitoring Network,Northwest Montana Lakes Volunteer Monitoring Network,5,NWM Lakes 1,54,1,1,51,24,3
+UPGAL-GRTF,Nutrients,1,0,1,0,0,Gallatin River Task Force,Upper Gallatin Watershed Nutrient and Algae Monitoring,18,Gallatin TF Nut,2350,7,4,14,10,5
+UPGAL-GRTF,Physical,1,0,1,0,0,Gallatin River Task Force,Upper Gallatin Watershed Nutrient and Algae Monitoring,18,Gallatin TF Nut,2400,7,6,13,11,5
+UPGAL-GRTF,Sediment,1,0,1,0,0,Gallatin River Task Force,Upper Gallatin Watershed Nutrient and Algae Monitoring,18,Gallatin TF Nut,823,7,2,14,10,5
+UPGAL-GRTF,Chemical,1,0,1,0,0,Gallatin River Task Force,Upper Gallatin Watershed Nutrient and Algae Monitoring,18,Gallatin TF Nut,2595,7,5,14,10,5
+UPGAL-GRTF,Biological,1,0,1,0,0,Gallatin River Task Force,Upper Gallatin Watershed Nutrient and Algae Monitoring,18,Gallatin TF Nut,432,7,1,13,7,2
+WWQMP,Chemical,1,0,0,0,1,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,11324,14,3,13.5,26.5,8.5
+WWQMP,Physical,1,0,0,0,1,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,37006,14,5,13.5,26.5,8.5
+WWQMP,Sediment,1,0,0,0,1,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,2976,14,2,12,19.5,7
+WWQMP,Biological,1,0,0,0,1,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,131,14,1,3,7,6
+WWQMP,Nutrients,1,0,0,0,1,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,4970,13,5,13,19,7
+WWQMP,Metals,0,0,0,0,0,Whitefish Lake Institute,Whitefish Water Quality Monitoring Project,3,Whitefish LI,16,3,2,1,1.5,1.5
+CLEARWATER-NUT,Nutrients,1,0,1,0,0,Clearwater Resource Council,"Clearwater Watershed Synoptic Stream Nutrient, Turbidity and Flow Monitoring",14,Clearwater Nut,2814,8,2,19.5,51,5
+CLEARWATER-NUT,Sediment,1,0,1,0,0,Clearwater Resource Council,"Clearwater Watershed Synoptic Stream Nutrient, Turbidity and Flow Monitoring",14,Clearwater Nut,4028,8,2,24,52,5
+CLEARWATER-NUT,Physical,1,0,1,0,0,Clearwater Resource Council,"Clearwater Watershed Synoptic Stream Nutrient, Turbidity and Flow Monitoring",14,Clearwater Nut,3055,8,2,24,52,5
+GGWC,Metals,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,180,2,5,4,5.5,3
+GGWC,Chemical,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,366,9,3,6,9,3
+GGWC,Nutrients,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,582,9,3.5,7,10,3
+GGWC,Sediment,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,156,9,1,8,11,3
+GGWC,Physical,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,429,8,5,6,9,3
+GGWC,Biological,0,1,0,0,0,Greater Gallatin Watershed Council,Greater Gallatin Watershed Council Volunteer Monitoring Program,7,Gallatin WC,23,1,1,8,4,1
+GLWQD-SWMN,Physical,1,0,0,0,0,Gallatin Local Water Quality District,Gallatin Local Water Quality District Surface Water Monitoring Network,8,Gallatin LWQD,2308,7,5,16,28,7
+GLWQD-SWMN,Chemical,1,0,0,0,0,Gallatin Local Water Quality District,Gallatin Local Water Quality District Surface Water Monitoring Network,8,Gallatin LWQD,1419,7,2,16,16,5
+GLWQD-SWMN,Nutrients,0,1,0,0,0,Gallatin Local Water Quality District,Gallatin Local Water Quality District Surface Water Monitoring Network,8,Gallatin LWQD,2603,7,5,16,15,4
+GLWQD-SWMN,Biological,0,1,0,0,0,Gallatin Local Water Quality District,Gallatin Local Water Quality District Surface Water Monitoring Network,8,Gallatin LWQD,2279,4,3,15,14,3
+GLWQD-SWMN,Sediment,0,1,0,0,0,Gallatin Local Water Quality District,Gallatin Local Water Quality District Surface Water Monitoring Network,8,Gallatin LWQD,257,7,1,7.5,6,3
