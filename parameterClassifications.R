@@ -12,7 +12,7 @@ library(ggplot2)
 
 #### IF STARTING A NEW PROJECT READ IN THESE FILES ----------------------------------
 
-PhysChemParm <- read.csv('ParmType_wqp_PhysChemData.csv',
+all_wqp_PhysChemData <- read.csv('All_WQP_PhysChemData_Cleaned.csv',
                                  colClasses = c(ProjectID_Simple = "factor"))
 
 #### Replace retired names with current parameter names
@@ -50,23 +50,18 @@ write_csv(ParmType_wqp_PhysChemData,'ParmType_wqp_PhysChemData.csv')
 
 #### Visualize the parameters to check classification
 
-char_counts <-PhysChemParm  %>%
-  count(CharacteristicName, Parameter_type, name = "Count") %>%
+char_counts <- ParmType_wqp_PhysChemData %>%
+  count(CharacteristicName, name = "Count") %>%
   arrange(desc(Count))
 
-threshold <- 350
+threshold <- 200
 
 char_counts <- char_counts %>%
   mutate(CharacteristicName = if_else(
     Count < threshold,
     "All Other Parameters",
-    CharacteristicName),
-    Parameter_type = if_else(
-      CharacteristicName == "All Other Parameters",
-      "Multiple",
-      Parameter_type)
-  ) %>%
-  group_by(CharacteristicName, Parameter_type) %>%
+    CharacteristicName)) %>%
+  group_by(CharacteristicName) %>%
   summarize(Count = sum(Count), .groups = "drop")
 
 wrap_width <- 10
@@ -75,47 +70,30 @@ char_counts <- char_counts %>%
 
 ggplot(char_counts,
        aes(area = Count,
-           fill = Parameter_type,
+           fill = Count,
            label = label_wrapped)) +
-  geom_treemap(colour = "white",
-               size = 0.4) +
+  geom_treemap() +
   geom_treemap_text(
     fontface = "bold",
     colour = "white",
     place = "centre",
     grow = TRUE) +
-  scale_fill_manual(
-    values = c(
-      "Biological" = "gold2",
-      "Chemical"   = "#a8d5e2",
-      "Physical"   = "#104911",
-      "Sediment"   = "#548C2F",
-      "Metals"     = "pink2",
-      "Nutrients"  = "#f9a620",
-      "Multiple"   = "grey60"
-    )) +
-  labs(fill = "Parameter Type") +
-  theme_minimal()+
-  theme(
-    legend.title = element_text(size = 14, face = "bold"),
-    legend.text  = element_text(size = 12))
+  scale_fill_viridis_c(option = "turbo") +
+  labs( title = "Most Frequently Sampled Water Quality Parameters",
+        fill = "Sample Count") +
+  theme_minimal()
 
 ### Create graphics of why types of parameters are sampled, over what years, and across projects-------------------------
 
-Parameter_type <- PhysChemParm$Parameter_type
-parmCount<-ggplot(PhysChemParm, aes(x=Parameter_type, fill=Derived))+
+Parameter_type <- ParmType_wqp_PhysChemData$Parameter_type
+ggplot(ParmType_wqp_PhysChemData, aes(x=Parameter_type, fill=Derived))+
   geom_bar()+
-  scale_fill_manual(values = c("Lab"="#548C2F", "Field"="#f9a620"))+
-  theme_linedraw()+
-  labs(x="Water Quality Parameter Type", y= "Count")+
+  scale_fill_brewer(palette = "Dark2")+
+  theme_bw()+
+  labs(x="Water Quality Parameter Group", y= "Count")+
   ylim(0,97000)
 
-ggsave("parameters.png", width = 6.5, height = 3.5, units = "in", dpi = 300)
-
-build<-ggplot_build(parmCount)
-build_dataframe<-build$data[[1]]
 ### Create a table to classify parameters
-
 library(gt)
 
 # Create a summary table listing characteristics under each parameter type
@@ -152,37 +130,3 @@ gtsave( gt_table,filename = "Table_S1_Parameter_Classification.docx")
 
 library(webshot2)
 gtsave(gt_table,filename = "Table_S1_Parameter_Classification.pdf")
-
-##### Create a dataframe listing what parameters each groups is measuring
-parmsbyGroup<- ParmType_wqp_PhysChemData %>%
-  select(ProjectID_Simple,Parameter_type)%>%
-  distinct()
-write_csv(parmsbyGroup,'parmsbyGroup.csv')
-
-
-#--------------------
-#OLD TREEMAP
-#--------------------
-char_counts <- ParmType_wqp_PhysChemData %>% 
-  count(CharacteristicName, name = "Count") %>% 
-  arrange(desc(Count)) 
-
-threshold <- 250 
-
-char_counts <- char_counts %>% 
-  mutate(CharacteristicName = if_else( Count < threshold, "All Other Parameters", CharacteristicName)) %>% 
-  group_by(CharacteristicName) %>% 
-  summarize(Count = sum(Count), 
-            .groups = "drop") 
-
-wrap_width <- 10 
-char_counts <- char_counts %>% 
-  mutate(label_wrapped = str_wrap(CharacteristicName, width = wrap_width)) 
-
-ggplot(char_counts, 
-       aes(area = Count, fill = Count, label = label_wrapped)) + 
-  geom_treemap() + 
-  geom_treemap_text( 
-    fontface = "bold", colour = "white", place = "centre", grow = TRUE) + 
-  scale_fill_viridis_c(option = "turbo") + 
-  labs(fill = "Sample Count") + theme_minimal()
