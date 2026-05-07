@@ -103,30 +103,3 @@ classification_table <- parm_type %>%
   summarise(
     Characteristics = paste(CharacteristicName, collapse = "; "),
     .groups = "drop")
-
-# Create a styled gt table suitable for a scientific paper
-gt_table<- classification_table %>%
-  gt() %>%
-  tab_header(
-    title = md("**Classification of Water Quality Characteristics by Parameter Type**"),
-    subtitle = "Used for grouping variables in subsequent figures and analyses"
-  ) %>%
-  cols_label(
-    Parameter_type = "Parameter Type",
-    Characteristics = "Included Characteristics"
-  ) %>%
-  opt_all_caps() %>%
-  tab_source_note(
-    source_note = md("Parameter classifications were developed to support figure interpretation and analytical grouping.")
-  ) %>%
-  tab_style(
-    style = cell_text(weight = "bold"),
-    locations = cells_column_labels(everything())
-  ) %>%
-  tab_options(table.font.size = 12,
-    data_row.padding = px(6))
-
-gtsave( gt_table,filename = "Table_S1_Parameter_Classification.docx")
-
-library(webshot2)
-gtsave(gt_table,filename = "Table_S1_Parameter_Classification.pdf")
