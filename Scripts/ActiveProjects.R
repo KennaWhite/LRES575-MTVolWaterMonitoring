@@ -6,7 +6,6 @@ library(dataRetrieval)
 library(dplyr)
 library(readr)
 library(purrr)
-library(lubridate)
 library(tidyverse)
 library(treemapify)
 
@@ -33,8 +32,7 @@ end_year   <- 2025
 project_yearBars <- project_years %>%
   mutate(
     start_y = year(start),
-    end_y   = year(end)
-  ) %>%
+    end_y   = year(end)) %>%
   rowwise() %>%
   mutate(year = list(seq(start_y, end_y))) %>%
   unnest(year) %>%
@@ -55,8 +53,7 @@ ggplot(bin_counts, aes(x = bin, y = Number_of_Projects)) +
   labs(
     title = "Number of Projects Active per Year",
     x = "1-Year Period",
-    y = "Number of Active Projects"
-  ) +
+    y = "Number of Active Projects" ) +
   theme_bw()+
 theme(plot.title = element_text(hjust = 0.5))
 
@@ -81,8 +78,7 @@ end_year   <- 2025
 project_yearBars <- project_years %>%
   mutate(
     start_y = year(start),
-    end_y   = year(end)
-  ) %>%
+    end_y   = year(end)) %>%
   rowwise() %>%
   mutate(year = list(seq(start_y, end_y))) %>%
   unnest(year) %>%
@@ -105,8 +101,7 @@ ggplot(bin_counts, aes(x = bin, y = Number_of_Projects)) +
   labs(
     title = "Number of Projects Active per 5-Year Period",
     x = "5-Year Period",
-    y = "Number of Active Projects"
-  ) +
+    y = "Number of Active Projects") +
   theme_bw()+
   theme(plot.title = element_text(hjust = 0.5))
 
